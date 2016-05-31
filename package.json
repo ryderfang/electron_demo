@@ -4,7 +4,8 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron main.js",
+    "package": "electron-packager . --app-version=0.1.0 --overwrite --platform=win32 --arch=ia32 --icon=./hello.ico"
   },
   "repository": {
     "type": "git",

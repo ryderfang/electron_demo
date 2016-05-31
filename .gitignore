@@ -1,1 +1,5 @@
 node_modules
+/electron-quick-start-win32-x64
+/electron-quick-start-linux-ia32
+/electron-quick-start-linux-x64
+/electron-quick-start-win32-ia32
