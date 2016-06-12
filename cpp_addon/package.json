@@ -1,0 +1,16 @@
+{
+  "name": "hello",
+  "version": "0.0.1",
+  "description": "Node.js Addons Example",
+  "main": "hello.js",
+  "private": true,
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "nan": "^2.0.0"
+  },
+  "scripts": {
+    "preinstall": "node-gyp rebuild --target=1.2.2 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
+    "test": "node hello.js"
+  },
+  "gypfile": true
+}
